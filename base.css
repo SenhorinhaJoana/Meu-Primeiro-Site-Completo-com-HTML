@@ -20,19 +20,32 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+   background-image: url(https://cdn.pixabay.com/photo/2015/09/17/10/30/banner-943866_1280.jpg);
     padding: 10px 20px 0px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 25px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-image: url(https://cdn.pixabay.com/photo/2021/10/11/17/37/doctor-6701410_1280.jpg);
     min-height: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: #0b3633;
+    padding-top: 100px;
+    
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    color: #0b3633;
+    text-align: justify;
+    
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629_1280.jpg);
+    min-height: 75px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
 }
