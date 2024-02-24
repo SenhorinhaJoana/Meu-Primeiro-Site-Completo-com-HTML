@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    
 }
 .main {
     display: flex;
@@ -26,12 +26,10 @@ body {
    font-size: 25px;
 }
 .header {
-    background-image: url(https://cdn.pixabay.com/photo/2021/10/11/17/37/doctor-6701410_1280.jpg);
     min-height: 150px;
     text-align: center;
     font-size: 30px;
     color: #0b3633;
-    padding-top: 100px;
     
 }
 .content {
