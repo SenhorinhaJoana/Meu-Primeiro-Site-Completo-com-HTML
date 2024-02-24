@@ -39,6 +39,27 @@ body {
     color: #0b3633;
     text-align: justify;
     
+    
+} 
+table tr td{
+    border: solid 1px black;
+}  
+table thead th{
+    background-color: rgb(77, 74, 74);
+    color: white;
+    cursor: pointer;
+    border: solid 1px black;
+    
+}
+table tbody tr:nth-child(even){
+    background-color: rgb(196, 193, 193) ;
+    color: black;
+    
+}
+table tbody tr:hover td{
+    background-color: rgba(248, 122, 4, 0.288) ;
+    cursor: pointer;
+    
 }
 .footer {
     background-image: url(https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629_1280.jpg);
@@ -46,4 +67,5 @@ body {
     text-align: center;
     color: white;
     padding-top: 30px;
+    max-height: max-content;
 }
