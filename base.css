@@ -61,6 +61,16 @@ table tbody tr:hover td{
     cursor: pointer;
     
 }
+label{
+    width: 80px;
+    display: inline-block;
+    padding: 5px;
+}
+button{
+    padding-top: 5px;
+    margin-top: 5px;
+}
+   
 .footer {
     background-image: url(https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629_1280.jpg);
     min-height: 75px;
